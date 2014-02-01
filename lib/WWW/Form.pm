@@ -6,7 +6,7 @@ use warnings;
 use Data::Dumper;
 use CGI;
 
-our $VERSION = "1.18";
+our $VERSION = "1.19";
 
 =head1 NAME
 

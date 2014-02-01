@@ -3,7 +3,7 @@ package WWW::FieldValidator;
 use strict;
 use warnings;
 
-our $VERSION = "1.06";
+our $VERSION = "1.19";
 
 # The following constants represent the validator types that can be used to
 # validate the specified user input.
