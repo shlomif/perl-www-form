@@ -1,5 +1,5 @@
-.hgignore
 syntax:glob
+.build
 blib
 Makefile
 pm_to_blib
