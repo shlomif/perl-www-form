@@ -170,9 +170,9 @@ types are supported (Note these are constants, the $validatorType param needs
 to be one of the following values):
 
   # Input must conform to /^[\w\-\.\+]+@(\w+)(\.([\w\-]+))+$/
-  WWW::FieldValidator::WELL_FORMED_EMAIL 
+  WWW::FieldValidator::WELL_FORMED_EMAIL
   # Input must be >= a specified string length
-  WWW::FieldValidator::MIN_STR_LENGTH 
+  WWW::FieldValidator::MIN_STR_LENGTH
   # Input must be <= a specified string length
   WWW::FieldValidator::MAX_STR_LENGTH
   # Input must match a user defined regex
