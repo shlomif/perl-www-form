@@ -3,7 +3,7 @@ package WWW::Form;
 use strict;
 use warnings;
 
-use 5.008;
+use 5.014;
 
 use Data::Dumper;
 use CGI;

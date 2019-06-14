@@ -1,5 +1,6 @@
 package WWW::FieldValidator;
 
+use 5.014;
 use strict;
 use warnings;
 
@@ -135,7 +136,7 @@ sub _validateMaxStrLength {
 # Checks to see if input matches the specified pattern.
 sub _validateRegex {
     my $self  = shift;
-    my $input = shift || '';
+    my $input = shift // '';
 
     return ($input =~ /$self->{regex}/);
 }
