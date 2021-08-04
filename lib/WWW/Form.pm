@@ -7,8 +7,6 @@ use 5.014;
 
 use HTML::Entities ();
 
-our $VERSION = "1.19";
-
 =head1 NAME
 
 WWW::Form - Object-oriented module for HTML form input validation and display
