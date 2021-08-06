@@ -1726,7 +1726,7 @@ sub _getInputHTML {
     my $field = $self->getField($fieldName);
 
     my $inputHTML = "<input type='$field->{type}'"
-		. " name='$fieldName' id='$fieldName' value=\"";
+    . " name='$fieldName' id='$fieldName' value=\"";
 
     my $value_to_put;
     if ($field->{type} eq 'checkbox') {
@@ -1796,7 +1796,7 @@ sub getSubmitButtonHTML {
             warn(
                 "Won't be able to display image submit button properly" .
                 " because src for image was not specified"
-	        );
+            );
         }
 
         $xhtml .= " src='$img_src'";
@@ -1888,11 +1888,11 @@ sub _getRadioButtonHTML {
                 $isChecked = " checked='checked'";
             }
 
-	    $inputHTML .= "<input type='$field->{type}'"
-	        . " name='$fieldName'";
+            $inputHTML .= "<input type='$field->{type}'"
+            . " name='$fieldName'";
 
         $inputHTML .= " value=\"". $self->_escapeValue($value) . "\" ";
-	    $inputHTML .= $attributesString
+        $inputHTML .= $attributesString
             . $isChecked
             . " /> $label</label><br />";
         }
@@ -1914,7 +1914,7 @@ sub _getTextAreaHTML {
     my $field = $self->getField($fieldName);
 
     my $textarea = "<textarea name='" . $fieldName . "'"
-		. $attributesString;
+    . $attributesString;
 
     $textarea .= ">";
     $textarea .= $self->_escapeValue($field->{value});
@@ -1950,7 +1950,7 @@ sub _getSelectBoxHTML {
                 $isSelected = "";
             }
             $html .= "<option value=\"" . $self->_escapeValue($value)
-				. "\"${isSelected}>$label</option>\n";
+            . "\"${isSelected}>$label</option>\n";
         }
     }
     else {
